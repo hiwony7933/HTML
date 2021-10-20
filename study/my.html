@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title><c:if> Tag Example</title>
+</head>
+<body>
+    <div class="box">
+		<div class="box-header with-border">
+            
+			<a href="study/list"><h3 class="box-title">Study게시판 목록보기</h3></a>
+			<a href="study/register"><h3 class="box-title">Study 게시판 글쓰기</h3></a>			
+		    <a href="board/list"><h3 class="box-title">게시판 목록보기</h3></a>
+            <a href="board/register"><h3 class="box-title">게시판 글쓰기</h3></a>
+            <a href="user/secession"><h3 class="box-title">회원탈퇴</h3></a>
+            <a href="/user/updateform"><h3 class="box-title">회원정보수정</h3></a>
+        </div>
+    </div>
+    <template>
+        <div class="example">
+            <span class="title">
+                {{text}}
+            </span>
+        </div>
+    </template>
+    <script>
+        export default {
+            name : 'Example',
+            data(){
+                return {
+                    text : ' example'
+                }
+            }
+        }
+    </script>
+    <style scoped>
+        span.title{color:#ffbb99};
+    </style>
+</body>
+</html>
