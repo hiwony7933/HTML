@@ -1,0 +1,82 @@
+#header {
+    background-color:#1df065;
+}
+#content {
+    background-color: lightblue;
+    height: auto;
+}
+#footer {
+    background-color: #d8f40c;
+    text-align: center;
+    font-size: 11px;
+}
+a{
+    text-decoration:none ;
+}
+.h1{
+    font-size: 10px;
+    color: gray;
+    display: inline-block;
+}
+.msg_h1 {
+    font-size: 11px;
+    display: inline-block;
+}
+.press_on{
+    text-align: center;
+    font-size: 15px;
+    line-height: 70px;
+    position: absolute;
+    top: 1%;
+    left: 50%;
+}
+.info {
+    font-size: 15px;
+    line-height: 70px;
+    position: absolute;
+    right : 5%;
+    top : 1%;
+}
+.lst_mn {
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+.lst_snb {
+    display: inline-block;
+    zoom: 1;
+}
+#pannel {
+    width: 800px;
+    height: 600px;
+    background-color: rgba(245, 245, 245, 0.699);
+    margin: 5% auto;
+}
+.container {
+    position: relative;
+    width: 20%;
+    height: 50%;
+}
+.add1 {
+    position: relative;
+    left: 10px;
+    top : 5px;
+}
+.btn_sbc {
+    font-size: 15px;
+    margin: 4px;
+    position: relative;
+    left: 10px;
+}
+.add2std {
+    top: 5px;
+    position: relative;
+}
+.add2 {
+    position : absolute;
+    top : -55px;
+    right: 10px;
+}
+.ifr {
+    margin: 1%;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <div id="app">
+        <div id="sideMenu">
+            <fieldset>
+                계정 : <input type="text" name="ID"><br/>
+                비번 : <input type="text" name="PW"><br/>
+                <br/>
+                <div class="Btn">
+                    <button v-on:click="click">
+                        시작
+                    </button>
+                    <button>
+                        종료
+                    </button>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+    
+    <script>
+        new Vue ({
+            el : '#app',
+            methods : {
+                click : function() {
+                    console.log('1');
+                }
+            }
+        })
+    </script>
+</body>
+<style>
+#sideMenu {
+    position: relative;
+    height: 900px;
+    width: 250px;
+}
+.Btn {
+    float: right;
+}
+</style>
+</html>

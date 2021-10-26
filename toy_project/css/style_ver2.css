@@ -1,0 +1,299 @@
+a{
+	text-decoration: none;
+}
+body{
+	background-color: burlywood;
+	/* width: auto; */
+	/* height: auto; */
+}
+ul{
+	list-style:none;
+	padding:0px;
+	margin: 0.5%;
+}
+div{
+	outline: solid 1px red;
+}
+.header {
+	width: 100%;
+	height: 5%;
+	display: block;
+	position: absolute;
+	width: 99%;
+	/* background-color: white; */
+}
+.header .left {
+	position: relative;
+	width: 43%;
+	height: 100%;
+	background-color: black;
+}
+.header .left .headertit {
+	color:white;
+	position: relative;
+	top: 30%;
+	left: 1%;
+	width: 35%;
+	font-size: 30px;
+	font-weight: bold;
+} 
+.header .left .headermsg {
+	position: relative;
+	display: inline-block;
+	left: 40%;
+	font-size: 15px;
+	color: white;
+}
+.header .hmiddle {
+	position: absolute;
+	left: 50%;
+	top: 30%;
+}
+.header .hright {
+	text-align: right;
+	position: relative;
+	right: 1.5%;
+	top: 25px;
+}
+
+.container {
+	background-color: black;
+	position: absolute;
+	top: 15%;
+	width: 99%;
+	height: 60%;
+}
+
+.container .middle {
+	background-color: rosybrown;
+	display: block;
+	width: 99%;
+	height: 98%;
+	position: relative;
+	margin: 0.5%;
+}
+.container .middle .mheader {
+	position: relative;
+	top: 0.5%;
+	left: 0.5%;
+	width: 99%;
+	background-color: azure;
+	height: 12%;
+
+}
+.container .middle .mheader .tit {
+	background-color: black;
+	color: white;
+	position: relative;
+	left: 0.5%;
+	top: 0.5%;
+	width: 300px;
+	height: 50%;
+}
+.container .middle .mheader .tit .titcon{
+	font-size: 30px;
+	font-weight: bold;
+	position: relative;
+	top: 10%;
+	left: 10%;
+	width: 100%;
+}
+
+.container .middle .mheader .content {
+	display: inline-block;
+	position: relative;
+	height: 40%;
+	top: 5%;
+	width: 300px;
+	background-color: black;
+}
+.container .middle .mheader .content .con {
+	position: relative;
+	top: 25%;
+	color: white;
+}
+.container .middle .mheader .add {
+	width: 50%;
+	height: 90%;
+	display: inline-block;
+	position: absolute;
+	right: 0.5%;
+	top: 5%;
+	background-color: black;
+	color : white
+}
+.container .middle .content {
+	position: relative;
+	background-color: white;
+	top: 0.5%;
+	left: 0.5%;
+	width: 65%;
+	height: 49%;
+}
+.container .middle .content .headerback {
+	background-color: violet;
+	margin: 0.5%;
+	height: 50px;
+	width: auto;
+	position: relative;
+	top: 0.5%;
+}
+.container .middle .content .headerback .cheader {
+	position: absolute;
+	top: 10%;
+	left: 0.5%;
+	right: 0.5%;
+	height: 70%;
+	width: auto;
+	background-color: black;
+}
+.container .middle .content .headerback .cheader .headertit {
+	position: relative;
+	top: 20%;
+	left: 0.5%;
+	color: white;
+	font-size: 20px;	
+}
+
+.container .middle .content .middlecon {
+	position: absolute;
+	top: 15%;
+	left: 0.5%;
+	right: 0.5%;
+	bottom: 0.5%;
+	background-color: gray;
+}
+.container .middle .content .middlecon .thumenews {
+	display: inline-block;
+	width: 40%;
+	height: 98%;
+	position: relative;
+	top: 1%;
+	left: 0.5%;
+	background-color: black;
+}
+.container .middle .content .middlecon .thumenews .thumeimg{
+	position: relative;
+	left: 1%;
+	top: 1%;
+	display: block;
+	width: 98%;
+	height: 80%;
+	background-color:yellow;
+}
+.container .middle .content .middlecon .thumenews .imgmsg {
+	display: block;
+	position: relative;
+	top: 3%;
+	left: 1%;
+	width: 98%;
+	height: auto;
+	font-size: 16px;
+	background-color:white;
+	color: black;
+}
+.container .middle .content .middlecon .thumelist {
+	display: inline-block;
+	height: 98%;
+	position: absolute;
+	left: 41%;
+	top: 1%;
+	right: 0.5%;
+	background-color: white;
+}
+.container .middle .content .middlecon .thumelist .thumeul {
+	position: relative;
+	top: 1%;
+	left: 1%;
+	width: 98%;
+	background-color: black;
+	color: white;
+	line-height: 160%;
+}
+.container .middle .content .middlecon .thumelist .thumeul .licontent{
+	position: relative;
+	font-size: 18px;
+	top: 3%;
+	left: 1%;
+	height: 99%;
+	overflow: hidden;
+}
+
+.container .middle .rightcon {
+	position: absolute;
+	left: 66%;
+	top: 13%;
+	width: 33.5%;
+	height: 70%;
+	background-color: white;
+}
+.container .middle .rightcon .imgli {
+	position: relative;
+	width: 98%;
+	height: 69%;
+	display: inline-block;
+	top: 1%;
+	left: 1%;
+	background-color: gray;
+}
+.container .middle .rightcon .imgli .firstimg {
+	position: relative;
+	display: block;
+	width: 98%;
+	height: 48%;
+	top: 1%;
+	left: 1%;
+	background-color: white;
+}
+.container .middle .rightcon .imgli .secondimg {
+	position: relative;
+	display: block;
+	width: 98%;
+	height: 48%;
+	top: 2%;
+	left: 1%;
+	background-color: white;
+}
+.container .middle .rightcon .rightli {
+	position: relative;
+	display: block;
+	background-color: gray;
+	top: 1%;
+	left: 1%;
+	width: 98%;
+	height: 29%;
+}
+
+.container .middle .rightcon .rightli .rightlitit {
+	font-size: 15px;
+	color: white;
+	padding-left: 5%;
+}
+
+
+
+
+
+
+
+.container .middle .bottomcon {
+	position: relative;
+	top: 1%;
+	left: 0.5%;
+	width: 65%;
+	height: 20%;
+	background-color: white;
+	display: inline-block;	
+}
+
+
+
+
+
+/* 
+.footer{
+	background-color: seagreen;
+	width: auto;
+	height: 80px;
+
+} */
